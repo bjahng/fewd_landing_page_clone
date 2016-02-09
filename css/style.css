@@ -1,7 +1,25 @@
 body {
-	background-color: LightGray;
+	font-family: sans-serif;
 }
 
-div {
-	border: 1px solid Chocolate;
+.masthead-logo {
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.masthead-logo > img {
+	width: 2em;
+	height: 2em;
+}
+
+.masthead-nav {
+	float: right;
+	width: 60%;
+	text-align: center;
+	border-spacing: 1em;
+}
+
+.masthead-nav > ul > li {
+	display: inline-block;
 }
