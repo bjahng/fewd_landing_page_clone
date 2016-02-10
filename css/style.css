@@ -1,9 +1,41 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 .top-navigation {
 	background-color: #fff;
 }
 
-.top-navigation > .content {
-	width: 60rem;
-	height: 4.375rem;
-	margin: 0 auto;
+.top-navigation .content {
+	width: 60em;
+	height: 4.375em;
+	margin: 0.85em auto;
+}
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.03em;
+	color: #838994;
+	margin-top: 1em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.2em;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
 }
