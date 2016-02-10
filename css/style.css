@@ -40,3 +40,40 @@
 	cursor: pointer;
 	color: #333333;
 }
+
+.background {
+	background-image: url("../images/first-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin: -3em 0em;
+}
+
+.background .content {
+	height: 43em;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(33%);
+}
+
+.background h1 {
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+.background p {
+	font-size: 1.6em;
+	font-weight: lighter;
+	margin-top: -0.7em;
+}
+
+.background button {
+	background-color: #d44010;
+	border: none;
+	padding: 0.8em 1.6em;
+	text-decoration: none;
+	border-radius: 0.4em;
+	font-size: 1.2em;
+}
