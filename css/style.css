@@ -1,25 +1,9 @@
-body {
-	font-family: sans-serif;
+.top-navigation {
+	background-color: #fff;
 }
 
-.masthead-logo {
-	float: left;
-	width: 40%;
-	text-align: center;
-}
-
-.masthead-logo > img {
-	width: 2em;
-	height: 2em;
-}
-
-.masthead-nav {
-	float: right;
-	width: 60%;
-	text-align: center;
-	border-spacing: 1em;
-}
-
-.masthead-nav > ul > li {
-	display: inline-block;
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
 }
