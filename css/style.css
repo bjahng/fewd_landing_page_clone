@@ -1,4 +1,5 @@
-/*html {
+/*
+html {
 	box-sizing: border-box;
 }
 
@@ -6,6 +7,12 @@
 	box-sizing: inherit;
 }
 */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.03em;
+}
+
 .top-navigation {
 	background-color: #fff;
 }
@@ -18,11 +25,8 @@
 
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	letter-spacing: 0.03em;
 	color: #838994;
-	margin-top: 1em;
+	margin-top: 0.7em;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -41,39 +45,42 @@
 	color: #333333;
 }
 
-.background {
+.introduction {
 	background-image: url("../images/first-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	margin: -3em 0em;
+	height: 43em;
 }
 
-.background .content {
-	height: 43em;
+.introduction .content {
 	color: #fff;
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(33%);
+	margin-top: -2.8em;
 }
 
-.background h1 {
+.introduction h1 {
 	font-weight: lighter;
 	font-size: 3em;
+	padding-top: 5em;
 }
 
-.background p {
-	font-size: 1.6em;
+.introduction h3 {
+	font-size: 1.5em;
 	font-weight: lighter;
 	margin-top: -0.7em;
 }
 
-.background button {
-	background-color: #d44010;
+.introduction button {
+	background-color: #ec4812;
 	border: none;
 	padding: 0.8em 1.6em;
 	text-decoration: none;
 	border-radius: 0.4em;
 	font-size: 1.2em;
+	color: #fff;
+}
+
+.introduction button:hover {
+	background-color: #bc390e;
 }
