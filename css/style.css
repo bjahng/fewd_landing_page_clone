@@ -7,10 +7,15 @@ html {
 	box-sizing: inherit;
 }
 */
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	letter-spacing: 0.03em;
+}
+
+.content {
+	margin: 0.85em auto;
 }
 
 .top-navigation {
@@ -20,7 +25,6 @@ body {
 .top-navigation .content {
 	width: 60em;
 	height: 4.375em;
-	margin: 0.85em auto;
 }
 
 .top-navigation .links {
@@ -50,19 +54,19 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	height: 43em;
+	height: 42em;
 }
 
 .introduction .content {
-	color: #fff;
 	text-align: center;
+	color: #fff;
 	margin-top: -2.8em;
 }
 
 .introduction h1 {
 	font-weight: lighter;
 	font-size: 3em;
-	padding-top: 5em;
+	padding-top: 4.2em;
 }
 
 .introduction h3 {
@@ -83,4 +87,29 @@ body {
 
 .introduction button:hover {
 	background-color: #bc390e;
+}
+
+.cases .content {
+	margin-top: 7.785em;
+	text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75em;
+	font-weight: 300;
+	margin: 1.625em 0em;
+}
+
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.563em;
+	margin: 1.5em 0;
+}
+
+.cases .devices > li {
+	width: 33.3333%;
+	height: 4em;
+	display: inline-block;
+	border: 1px;
+	box-sizing: border-box;
 }
