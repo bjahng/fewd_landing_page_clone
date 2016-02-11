@@ -94,14 +94,14 @@ body {
 }
 
 .cases .content {
-	margin-top: 7.785em;
+	margin: 7.785em 0 0 0;
 	text-align: center;
 }
 
 .cases h2 {
 	font-size: 2.75em;
 	font-weight: 300;
-	margin: 1.625em 0em;
+	margin: 1.5em 0em 0.7em;
 }
 
 .cases h3 {
@@ -110,10 +110,14 @@ body {
 	margin: 1.5em 0;
 }
 
-.cases .devices > li {
-	width: 33.3333%;
-	height: 4em;
+.cases .devices {
 	display: inline-block;
-	border: 1px;
-	box-sizing: border-box;
+	width: 100%;
+	margin-left: -40px;
+}
+
+.cases .devices li {
+	display: inline-block;
+	width: 19%;
+	overflow: initial;
 }
