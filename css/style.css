@@ -15,23 +15,27 @@ body {
 }
 
 .content {
-	margin: 0.85em auto;
+	margin: auto;
 }
 
 .top-navigation {
 	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
 }
 
 .top-navigation .content {
 	width: 60em;
-	height: 4.375em;
+	height: 3.5em;
+	padding-top: 1em;
 }
 
 .top-navigation .links {
 	float: right;
 	color: #838994;
-	margin-top: 0.7em;
 	-webkit-font-smoothing: antialiased;
+	margin-top: 0.5em;
 }
 
 .top-navigation .links .active {
@@ -54,19 +58,19 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	height: 42em;
+	height: 46em;
 }
 
 .introduction .content {
 	text-align: center;
 	color: #fff;
-	margin-top: -2.8em;
 }
 
 .introduction h1 {
 	font-weight: lighter;
 	font-size: 3em;
-	padding-top: 4.2em;
+	margin-top: 0em;
+	padding-top: 5.8em;
 }
 
 .introduction h3 {
