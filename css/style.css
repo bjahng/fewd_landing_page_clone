@@ -23,10 +23,6 @@ body {
 	margin-left: -40px;
 }
 
-hr {
-	width: 100%;
-}
-
 .top-navigation {
 	background-color: #fff;
 	width: 100%;
@@ -94,7 +90,7 @@ hr {
 }
 
 .introduction button {
-	background-color: #ec4812;
+	background-color: #f15a29;
 	border: none;
 	padding: 0.8em 1.6em;
 	text-decoration: none;
@@ -134,5 +130,27 @@ hr {
 }
 
 .social .content {
-	margin-bottom: 11em;
+	margin-bottom: 9em;
+}
+
+.social .content .copyright {
+	font-weight: 300;
+	color: #838994;
+	font-size: 0.9em;
+}
+
+.social hr {
+	border: 1px solid #eaebec;
+}
+
+.social .fa-twitter {
+	color: #55acee;
+}
+
+.social .fa-facebook {
+	color: #4c66a4;
+}
+
+.social .fa-instagram {
+	color: #3f729b;
 }
