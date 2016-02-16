@@ -1,4 +1,3 @@
-/*
 html {
 	box-sizing: border-box;
 }
@@ -6,7 +5,6 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-*/
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -16,6 +14,17 @@ body {
 
 .content {
 	margin: auto;
+	text-align: center;
+}
+
+.content ul {
+	display: inline-block;
+	width: 100%;
+	margin-left: -40px;
+}
+
+hr {
+	width: 100%;
 }
 
 .top-navigation {
@@ -23,19 +32,25 @@ body {
 	width: 100%;
 	position: fixed;
 	z-index: 99;
+	padding-bottom: 0.8em;
 }
 
 .top-navigation .content {
-	width: 60em;
+	width: 65em;
 	height: 3.5em;
 	padding-top: 1em;
 }
 
+/*.top-navigation .content .logo {
+	text-align: left;
+}
+*/
 .top-navigation .links {
 	float: right;
 	color: #838994;
 	-webkit-font-smoothing: antialiased;
 	margin-top: 0.5em;
+	padding-left: 30em;
 }
 
 .top-navigation .links .active {
@@ -62,7 +77,6 @@ body {
 }
 
 .introduction .content {
-	text-align: center;
 	color: #fff;
 }
 
@@ -94,8 +108,7 @@ body {
 }
 
 .cases .content {
-	margin: 7.785em 0 0 0;
-	text-align: center;
+	margin: 7.785em 0 6em 0;
 }
 
 .cases h2 {
@@ -110,13 +123,16 @@ body {
 	margin: 1.5em 0;
 }
 
-.cases .devices {
-	display: inline-block;
-	width: 100%;
-	margin-left: -40px;
-}
-
 .cases .devices li {
 	display: inline-block;
 	width: 19%;
+}
+
+.social .icons li {
+	display: inline-block;
+	margin: 0 1.2em;
+}
+
+.social .content {
+	margin-bottom: 11em;
 }
