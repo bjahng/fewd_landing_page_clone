@@ -119,5 +119,4 @@ body {
 .cases .devices li {
 	display: inline-block;
 	width: 19%;
-	overflow: initial;
 }
